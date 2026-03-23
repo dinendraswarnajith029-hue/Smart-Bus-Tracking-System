@@ -1,0 +1,91 @@
+/* Background */
+.dashboard-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #f1f8e9);
+    padding: 50px 20px;
+}
+
+/* Welcome Card */
+.welcome-card {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255,255,255,0.95);
+    border-radius: 24px;
+    padding: 40px;
+    text-align: center;
+}
+
+.welcome-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #81ecec, #74b9ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: auto;
+}
+
+.welcome-card h2 {
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.welcome-card p {
+    color: #6c757d;
+}
+
+/* Dashboard Cards */
+.dashboard-card {
+    display: block;
+    text-decoration: none;
+    background: white;
+    border-radius: 22px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.dashboard-card i {
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+.dashboard-card h5 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.dashboard-card span {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Hover Effect */
+.dashboard-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* Card Colors */
+.dashboard-card.search {
+    border-top: 5px solid #0984e3;
+    color: #0984e3;
+}
+
+.dashboard-card.bookings {
+    border-top: 5px solid #00b894;
+    color: #00b894;
+}
+
+.dashboard-card.logout {
+    border-top: 5px solid #fab1a0;
+    color: #d63031;
+}
+
+/* Calm Logout (not scary) */
+.dashboard-card.logout:hover {
+    background: #fff5f5;
+}

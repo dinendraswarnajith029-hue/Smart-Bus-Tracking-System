@@ -1,0 +1,197 @@
+/* ================= GLOBAL UI ================= */
+
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+/* ================= DASHBOARD ================= */
+
+.dashboard-card {
+    transition: transform 0.2s ease;
+}
+
+.dashboard-card:hover {
+    transform: scale(1.03);
+}
+
+/* ================= RATING STARS ================= */
+
+.star {
+    font-size: 28px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star.selected {
+    color: gold;
+}
+
+/* ================= BUS SEAT BOOKING ================= */
+
+.bus-wrapper {
+    width: 240px;
+    border: 4px solid #888;
+    padding: 15px;
+    margin: auto;
+    background: #ffffff;
+}
+
+.driver {
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.seat-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.aisle {
+    width: 30px;
+}
+
+/* Seat icons */
+.seat-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Seat states */
+.seat-icon.available {
+    background-color: #000;
+}
+
+.seat-icon.selected {
+    background-color: #2ecc71;
+}
+
+.seat-icon.occupied {
+    background-color: #e74c3c;
+    cursor: not-allowed;
+}
+
+/* Legend */
+.legend {
+    margin-bottom: 10px;
+}
+
+.legend .seat-icon {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.bus-wrapper {
+    width: 240px;
+    border: 4px solid #888;
+    padding: 15px;
+    margin: auto;
+}
+
+.seat-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.aisle { width: 30px; }
+
+.seat-icon {
+    width: 22px;
+    height: 22px;
+    background: black;
+    border-radius: 4px;
+}
+
+.seat-icon.selected { background: green; }
+.seat-icon.occupied { background: red; }
+
+#preloader {
+    position: fixed;
+    inset: 0;
+    background: #ffffff;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+:root {
+    --bg-overlay: rgba(0,0,0,0.55);
+    --text-color: #ffffff;
+    --nav-bg: rgba(0,0,0,0.4);
+    --search-bg: rgba(255,255,255,0.15);
+}
+
+body.dark {
+    --bg-overlay: rgba(0,0,0,0.75);
+    --text-color: #eaeaea;
+    --nav-bg: rgba(0,0,0,0.8);
+    --search-bg: rgba(255,255,255,0.08);
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* HERO */
+.hero {
+    min-height: 100vh;
+    background:
+      linear-gradient(var(--bg-overlay), var(--bg-overlay)),
+      url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee')
+      center/cover no-repeat;
+    color: var(--text-color);
+}
+
+/* NAVBAR */
+.navbar {
+    background: var(--nav-bg);
+    transition: background 0.3s ease;
+}
+
+/* SEARCH BAR */
+.search-box {
+    background: var(--search-bg);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.search-box input {
+    border-radius: 30px;
+}
+
+
+.road {
+    width: 300px;
+    overflow: hidden;
+}
+
+.bus {
+    width: 120px;
+    animation: moveBus 2.5s ease-in-out infinite;
+}
+
+@keyframes moveBus {
+    0%   { transform: translateX(-150px); opacity: 0; }
+    30%  { opacity: 1; }
+    100% { transform: translateX(350px); opacity: 0; }
+}
+

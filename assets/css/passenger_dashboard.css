@@ -1,0 +1,82 @@
+/* FULL BACKGROUND IMAGE */
+.dashboard-bg {
+    min-height: 100vh;
+    background: 
+        linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+        url("../img/bus.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIN CARD */
+.dashboard-card {
+    background: rgba(255,255,255,0.95);
+    border-radius: 25px;
+    padding: 45px;
+    max-width: 850px;
+    width: 100%;
+    text-align: center;
+}
+
+/* ICON */
+.icon-circle {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(135deg, #74b9ff, #81ecec);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: auto;
+}
+
+/* TITLE */
+.dashboard-card h2 {
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.subtitle {
+    color: #6c757d;
+}
+
+/* ACTION CARDS */
+.action-card {
+    display: block;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.action-card i {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.action-card h5 {
+    margin: 0;
+    font-weight: 600;
+}
+
+/* COLORS */
+.action-card.search {
+    background: linear-gradient(135deg, #0984e3, #74b9ff);
+}
+
+.action-card.booking {
+    background: linear-gradient(135deg, #00b894, #55efc4);
+}
+
+.action-card.logout {
+    background: linear-gradient(135deg, #fab1a0, #ff7675);
+}
+
+/* HOVER EFFECT */
+.action-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}

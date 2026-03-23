@@ -1,0 +1,131 @@
+/* ===============================
+   AUTH PAGE STYLES (REGISTER / LOGIN)
+   =============================== */
+
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* ---------- BACKGROUND ---------- */
+.auth-wrapper {
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("../img/new_bus.png") center / cover no-repeat fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: fadeInBg 1.2s ease;
+}
+
+/* Background fade */
+@keyframes fadeInBg {
+    from {
+        opacity: 0;
+        transform: scale(1.02);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* ---------- CARD ---------- */
+.auth-card {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(37, 250, 204, 0.95);
+    padding: 40px;
+    border-radius: 22px;
+
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(6px);
+
+    animation: slideUp 0.9s ease;
+}
+
+/* Card animation */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ---------- ICON ---------- */
+.auth-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: linear-gradient(135deg, #38ef7d, #11998e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 36px;
+    color: #fff;
+    margin: auto;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- INPUTS ---------- */
+.form-control {
+    border-radius: 14px;
+    padding: 14px;
+    border: 1px solid #dde5ec;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #38ef7d;
+    box-shadow: 0 0 0 0.2rem rgba(56, 239, 125, 0.25);
+}
+
+/* ---------- BUTTON ---------- */
+.btn-auth {
+    background: linear-gradient(135deg, #38ef7d, #11998e);
+    color: #fff;
+    border-radius: 30px;
+    padding: 12px;
+    font-weight: 600;
+    border: none;
+
+    transition: all 0.3s ease;
+}
+
+.btn-auth:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    opacity: 0.97;
+}
+
+/* ---------- LINKS ---------- */
+.auth-card a {
+    text-decoration: none;
+    color: #11998e;
+    font-weight: 600;
+}
+
+.auth-card a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 480px) {
+    .auth-card {
+        padding: 30px 25px;
+    }
+}

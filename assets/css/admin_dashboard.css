@@ -1,0 +1,64 @@
+/* Background */
+.admin-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #eef2f3, #d9e4f5);
+}
+
+/* Header Icon */
+.admin-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    border-radius: 50%;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Dashboard Cards */
+.dashboard-card {
+    display: block;
+    padding: 30px;
+    border-radius: 18px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dashboard-card i {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.dashboard-card h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.dashboard-card p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Hover Effect */
+.dashboard-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* Card Colors */
+.dashboard-card.blue {
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+}
+
+.dashboard-card.green {
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+}
+
+.dashboard-card.yellow {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+}

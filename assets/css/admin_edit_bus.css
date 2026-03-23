@@ -1,0 +1,51 @@
+/* Background */
+.edit-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #eef2f3, #d9e4f5);
+}
+
+/* Card */
+.edit-card {
+    max-width: 520px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+/* Icon */
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 12px;
+    padding: 12px;
+}
+
+/* Buttons */
+.btn-update {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px 22px;
+    border: none;
+}
+
+.btn-update:hover {
+    opacity: 0.9;
+}
+
+.btn-back {
+    background: #f1f3f5;
+    color: #333;
+    border-radius: 12px;
+    padding: 10px 22px;
+}
