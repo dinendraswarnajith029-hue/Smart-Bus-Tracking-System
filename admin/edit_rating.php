@@ -51,7 +51,7 @@ body {
 /* Card */
 .edit-card {
     max-width: 480px;
-    background: rgba(255,255,255,0.97);
+    background: rgba(189, 170, 170, 0.97);
     border-radius: 20px;
     padding: 30px;
 }
@@ -65,7 +65,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    color: #fff;
+    color: #867c7c;
     margin: 0 auto 15px;
 }
 
@@ -91,6 +91,13 @@ body {
 
     <div class="edit-card shadow-lg w-100">
 
+        <!--<div class="text-center mb-4">
+            <div class="title-icon">
+                ⭐
+            </div>
+            <h4 class="fw-bold">Edit Passenger Rating</h4>
+            <p class="text-muted mb-0">Update rating and feedback</p>
+        </div>-->
         <div class="text-center mb-4">
             <div class="title-icon">
                 ⭐
