@@ -68,7 +68,15 @@ body {
     font-family: "Segoe UI", sans-serif;
 }
 
-/* CARD */
+/* CARD 
+.add-card {
+    max-width: 520px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 22px;
+    padding: 35px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+}
+*/
 .add-card {
     max-width: 520px;
     background: rgba(255,255,255,0.95);
@@ -79,7 +87,7 @@ body {
 
 /* ICON */
 .icon-circle {
-    width: 90px;
+    width: 100px;
     height: 90px;
     background: linear-gradient(135deg,#4facfe,#00f2fe);
     border-radius: 50%;
