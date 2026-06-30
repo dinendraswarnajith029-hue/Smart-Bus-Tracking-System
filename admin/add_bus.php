@@ -95,7 +95,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 42px;
-    color: #fff;
+    color: #968f8f;
 }
 /* INPUTS */
 .form-control, .form-select {
@@ -172,10 +172,18 @@ body {
                 <label class="form-label">Driver Contact</label>
                 <input name="driver_contact" class="form-control" placeholder="0771234567">
             </div>
+            <!--<div class="col-md-12">
+                <label class="form-label">Ticket Price (LKR)</label>
+                <input type="number" step="0.01" name="rate" class="form-control" placeholder="1500.00" required>
+            </div>-->
             <div class="col-md-12">
                 <label class="form-label">Ticket Price (LKR)</label>
                 <input type="number" step="0.01" name="rate" class="form-control" placeholder="1500.00" required>
             </div>
+             <!-- <div class="col-md-12">
+                <label class="form-label">Ticket Price (LKR)</label>
+                <input type="number" step="0.01" name="rate" class="form-control" placeholder="1500.00" required>
+            </div>-->
             <!-- ACTIONS -->
             <div class="col-12 d-flex justify-content-between mt-4">
                 <a href="index.php" class="btn btn-back btn-light">
