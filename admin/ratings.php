@@ -84,7 +84,7 @@ body{
         <table class="table table-bordered table-hover align-middle">
             <thead class="table-warning text-center">
                 <tr>
-                    <th>#</th>
+                    <th>##</th>
                     <th>Bus</th>
                     <th>Rating</th>
                     <th>Passenger Comment</th>
