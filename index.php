@@ -67,6 +67,7 @@ body {
 .navbar {
     background: var(--nav-bg);
     backdrop-filter: blur(8px);
+     padding: 18px;
 }
 /* ================= SEARCH ================= */
 .search-box {
@@ -80,7 +81,7 @@ body {
 }
 /* ================= BUTTONS ================= */
 .btn-search {
-    border-radius: 30px;
+    border-radius: 40px;
 }
 /* ================= TEXT ================= */
 .hero h1 {
