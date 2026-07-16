@@ -59,7 +59,7 @@ body{
     border-radius:20px;
     padding:5px 14px;
     font-size:14px;
-     border:none;
+     
 }
 
 /* Action buttons */
