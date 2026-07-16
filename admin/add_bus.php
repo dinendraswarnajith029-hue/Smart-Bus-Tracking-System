@@ -106,7 +106,7 @@ body {
 .btn-save {
     background: linear-gradient(135deg,#00b09b,#96c93d);
     border: none;
-    color: #fff;
+    color: #c5aeaeb2;
     border-radius: 14px;
     padding: 12px 26px;
 }
