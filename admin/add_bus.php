@@ -79,7 +79,7 @@ body {
 */
 .add-card {
     max-width: 520px;
-    background: rgba(255,255,255,0.95);
+    background: rgba(224, 207, 207, 0.95);
     border-radius: 22px;
     padding: 35px;
     box-shadow: 0 25px 60px rgba(0,0,0,0.25);
