@@ -141,7 +141,7 @@ body{
                 <?php endwhile; ?>
             <?php else: ?>
                 <tr>
-                    <td colspan="5" class="text-center text-muted">
+                    <td colspan="6" class="text-center text-muted">
                         No ratings available
                     </td>
                 </tr>
