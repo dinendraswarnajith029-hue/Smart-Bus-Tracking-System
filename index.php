@@ -24,6 +24,7 @@ body {
     font-family: "Segoe UI", sans-serif;
     color: var(--text);
     transition: all 0.3s ease;
+    --overlay: rgba(0,0,0,0.55);
 }
 /* ================= PRELOADER ================= */
 #preloader {
