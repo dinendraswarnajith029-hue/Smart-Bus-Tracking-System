@@ -37,6 +37,7 @@
             border-radius: 50%;
             background: rgba(255,255,255,0.04);
             top: -100px; left: -100px;
+            overflow: hidden;
         }
 
         .left-panel::after {
