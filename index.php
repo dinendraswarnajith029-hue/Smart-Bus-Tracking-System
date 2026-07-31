@@ -25,6 +25,7 @@ body {
     color: var(--text);
     transition: all 0.3s ease;
     --overlay: rgba(0,0,0,0.55);
+     --text: #f1f1f1;
 }
 /* ================= PRELOADER ================= */
 #preloader {
