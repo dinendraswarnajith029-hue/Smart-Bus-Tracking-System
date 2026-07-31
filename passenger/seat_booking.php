@@ -62,6 +62,8 @@ body{
     align-items:center;
     margin-right:15px;
     font-weight:600;
+    height:26px;
+    box-shadow: 0 25px 60px rgba(0,0,0,.35);
 }
 .seat-icon{
     width:26px;
